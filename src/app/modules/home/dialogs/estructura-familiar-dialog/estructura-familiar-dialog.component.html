@@ -1,10 +1,12 @@
-<mat-card class="card">
+
+<div style="height: 650px">
+  <mat-card class="card">
     <div >
         <mat-toolbar color="primary">
             <span>Crear estructura familiar - Modulo 4</span>
         </mat-toolbar>
     </div>
-    <mat-card-content style="padding: 0 10px; overflow: auto; height: 600px;">
+    <mat-card-content style="padding: 0 10px; overflow: auto;">
         <form [formGroup]="formIntegranteFamiliar">
 
             <div class="input-2-column">
@@ -56,7 +58,7 @@
 
 
 
-              <div class="input-2-column"  style="margin-top: 12px;">
+              <div class="input-2-column">
                 <mat-form-field appearance="legacy">
                   <mat-label>Grado de instrucción</mat-label>
                   <input matInput #input formControlName="gradoInstruccion">
@@ -122,3 +124,4 @@
         
     </mat-card-content>
   </mat-card>
+</div>
